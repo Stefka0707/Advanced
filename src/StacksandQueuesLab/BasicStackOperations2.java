@@ -1,4 +1,4 @@
-package StacksandQueuesLab;
+package StacksAndQueueExercises;
 
 import java.util.*;
 
