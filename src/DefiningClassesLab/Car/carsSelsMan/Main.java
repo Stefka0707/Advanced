@@ -54,7 +54,7 @@ public class Main {
         // Car
         int carsCount = Integer.parseInt(scanner.nextLine());
 
-        for (int carCount = 0; carCount <= carsCount; carCount++) {
+        for (int carCount = 1; carCount <= carsCount; carCount++) {
             String[] carData = scanner.nextLine().split("\\s+");
             String carModel = carData[0];
             String enginModel = carData[1];

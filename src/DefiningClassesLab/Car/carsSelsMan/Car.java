@@ -1,6 +1,5 @@
 package DefiningClassesExercise.carsSelsMan;
 
-import java.util.Locale;
 
 public class Car {
 
@@ -24,7 +23,7 @@ public class Car {
         StringBuilder sb = new StringBuilder();
         sb.append(this.model).append(":").
                 append(System.lineSeparator());
-        sb.append(this.engine.getModel()).//engin.getModel ->защото го извиква от класа Engin
+        sb.append(this.engine.getModel()).append(":").//engin.getModel ->защото го извиква от класа Engin
                 append(System.lineSeparator());
         // за да можем да досъпваме полета от клас Engin
         //трябва там да сме генерирали гетер
